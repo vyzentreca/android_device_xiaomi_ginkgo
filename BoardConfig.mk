@@ -19,7 +19,7 @@ TARGET_OTA_ASSERT_DEVICE := ginkgo,willow
 TARGET_SCREEN_DENSITY := 440
 
 # Kernel
-TARGET_KERNEL_CONFIG := vendor/ginkgo-perf_defconfig
+TARGET_KERNEL_CONFIG += vendor/ginkgo.config
 
 # Partitions
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 4831838208
