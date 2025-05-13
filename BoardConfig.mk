@@ -15,6 +15,9 @@ AB_OTA_UPDATER := false
 # Assert
 TARGET_OTA_ASSERT_DEVICE := ginkgo,willow
 
+# Bootloader
+TARGET_BOOTLOADER_BOARD_NAME := ginkgo
+
 # Display
 TARGET_SCREEN_DENSITY := 440
 
