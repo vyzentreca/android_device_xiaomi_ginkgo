@@ -28,3 +28,13 @@
 #
 
 import /vendor/etc/init/hw/init.fingerprint.rc
+
+service vendor.nfc_hal_service /vendor/bin/hw/android.hardware.nfc@1.2-service
+    class hal
+    user nfc
+    group nfc
+    override
+    disabled
+
+on property:ro.product.device=willow
+    enable vendor.nfc_hal_service
