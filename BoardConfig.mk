@@ -46,5 +46,9 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 # Releasetools
 TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
 
+# Security patch level - V12.5.12.0.RCOEUXM
+BOOT_SECURITY_PATCH := 2022-10-01
+VENDOR_SECURITY_PATCH := $(BOOT_SECURITY_PATCH)
+
 # Inherit from the proprietary version
 include vendor/xiaomi/ginkgo/BoardConfigVendor.mk
