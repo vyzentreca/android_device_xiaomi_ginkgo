@@ -1556,3 +1556,6 @@ vendor/firmware/novatek_ts_ebbg_fw.bin:recovery/root/vendor/firmware/novatek_ts_
 vendor/firmware/novatek_ts_ebbg_mp.bin:recovery/root/vendor/firmware/novatek_ts_ebbg_mp.bin
 vendor/firmware/novatek_ts_tianma_fw.bin:recovery/root/vendor/firmware/novatek_ts_tianma_fw.bin
 vendor/firmware/novatek_ts_tianma_mp.bin:recovery/root/vendor/firmware/novatek_ts_tianma_mp.bin
+
+# WiFi
+vendor/bin/cnss-daemon
