@@ -7,6 +7,9 @@
 # Inherit from sm6125-common
 include device/xiaomi/sm6125-common/BoardConfigCommon.mk
 
+# MiuiCamera
+-include device/xiaomi/miuicamera-ginkgo/BoardConfig.mk
+
 DEVICE_PATH := device/xiaomi/ginkgo
 
 # A/B
